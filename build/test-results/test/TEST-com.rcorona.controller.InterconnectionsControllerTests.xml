@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rcorona.controller.InterconnectionsControllerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-12T23:53:44" hostname="equipocasa" time="15.67">
+  <properties/>
+  <testcase name="resultWithParams" classname="com.rcorona.controller.InterconnectionsControllerTests" time="15.67"/>
+  <system-out><![CDATA[01:53:26.719 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.rcorona.controller.InterconnectionsControllerTests]
+01:53:26.761 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:53:26.802 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:53:26.987 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.rcorona.controller.InterconnectionsControllerTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:53:27.068 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.rcorona.controller.InterconnectionsControllerTests], using SpringBootContextLoader
+01:53:27.082 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.rcorona.controller.InterconnectionsControllerTests]: class path resource [com/rcorona/controller/InterconnectionsControllerTests-context.xml] does not exist
+01:53:27.084 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.rcorona.controller.InterconnectionsControllerTests]: class path resource [com/rcorona/controller/InterconnectionsControllerTestsContext.groovy] does not exist
+01:53:27.086 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.rcorona.controller.InterconnectionsControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:53:27.090 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.rcorona.controller.InterconnectionsControllerTests]: InterconnectionsControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:53:27.424 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.rcorona.controller.InterconnectionsControllerTests]
+01:53:27.453 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+01:53:27.455 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+01:53:27.456 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+01:53:27.496 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/rcorona/controller/] to resources [URL [file:/D:/eclipse/workspace/RoutesService/build/classes/test/com/rcorona/controller/], URL [file:/D:/eclipse/workspace/RoutesService/build/classes/main/com/rcorona/controller/]]
+01:53:27.501 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\eclipse\workspace\RoutesService\build\classes\test\com\rcorona\controller]
+01:53:27.502 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\eclipse\workspace\RoutesService\build\classes\test\com\rcorona\controller] for files matching pattern [D:/eclipse/workspace/RoutesService/build/classes/test/com/rcorona/controller/*.class]
+01:53:27.524 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\eclipse\workspace\RoutesService\build\classes\main\com\rcorona\controller]
+01:53:27.525 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\eclipse\workspace\RoutesService\build\classes\main\com\rcorona\controller] for files matching pattern [D:/eclipse/workspace/RoutesService/build/classes/main/com/rcorona/controller/*.class]
+01:53:27.528 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/rcorona/controller/*.class] to resources [file [D:\eclipse\workspace\RoutesService\build\classes\test\com\rcorona\controller\InterconnectionsControllerTests.class], file [D:\eclipse\workspace\RoutesService\build\classes\main\com\rcorona\controller\Application.class], file [D:\eclipse\workspace\RoutesService\build\classes\main\com\rcorona\controller\InterconnectionsController.class]]
+01:53:27.680 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\eclipse\workspace\RoutesService\build\classes\main\com\rcorona\controller\Application.class]
+01:53:27.723 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.rcorona.controller.Application for test class com.rcorona.controller.InterconnectionsControllerTests
+01:53:27.735 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.rcorona.controller.InterconnectionsControllerTests]: using defaults.
+01:53:27.763 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+01:53:27.824 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+01:53:27.869 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+01:53:27.880 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3d5db75e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4fecccc4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2fe878db, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7cb7939d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2c003c12, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5235fba, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6961c165, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@298a8caf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@447c520, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b06949d]
+01:53:27.889 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.rcorona.controller.InterconnectionsControllerTests]
+01:53:27.892 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.rcorona.controller.InterconnectionsControllerTests]
+01:53:27.895 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.rcorona.controller.InterconnectionsControllerTests]
+01:53:27.896 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.rcorona.controller.InterconnectionsControllerTests]
+01:53:27.910 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3e72f197 testClass = InterconnectionsControllerTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a98bbd3 testClass = InterconnectionsControllerTests, locations = '{}', classes = '{class com.rcorona.controller.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@5fb981ba key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, Package Import com.rcorona.controller]], org.springframework.boot.test.context.SpringBootTestContextCustomizer@563f85f2, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@28a20a6f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@df18878b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3fe04511], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+01:53:27.931 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.rcorona.controller.InterconnectionsControllerTests]
+01:53:27.932 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.rcorona.controller.InterconnectionsControllerTests]
+01:53:28.311 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+01:53:28.313 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+01:53:28.314 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+01:53:28.337 [Test worker] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+01:53:28.405 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+01:53:28.407 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.2.RELEASE)
+
+2017-06-13 01:53:30.373  INFO 6024 --- [    Test worker] c.r.c.InterconnectionsControllerTests    : Starting InterconnectionsControllerTests on equipocasa with PID 6024 (started by Roberto in D:\eclipse\workspace\RoutesService)
+2017-06-13 01:53:30.380  INFO 6024 --- [    Test worker] c.r.c.InterconnectionsControllerTests    : No active profile set, falling back to default profiles: default
+2017-06-13 01:53:30.544  INFO 6024 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@74dc4375: startup date [Tue Jun 13 01:53:30 CEST 2017]; root of context hierarchy
+2017-06-13 01:53:39.696  INFO 6024 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-06-13 01:53:39.697  INFO 6024 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-06-13 01:53:41.327  INFO 6024 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/interconnections]}" onto public java.util.List<com.rcorona.model.Flight> com.rcorona.controller.InterconnectionsController.interconnections(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-06-13 01:53:41.349  INFO 6024 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-13 01:53:41.353  INFO 6024 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-13 01:53:41.559  INFO 6024 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 01:53:41.561  INFO 6024 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 01:53:41.644  INFO 6024 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-13 01:53:42.179  INFO 6024 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@74dc4375: startup date [Tue Jun 13 01:53:30 CEST 2017]; root of context hierarchy
+2017-06-13 01:53:43.054  INFO 6024 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 3357 ms
+2017-06-13 01:53:44.503  INFO 6024 --- [    Test worker] c.r.c.InterconnectionsControllerTests    : Started InterconnectionsControllerTests in 16.025 seconds (JVM running for 21.578)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /interconnections
+       Parameters = {departure=[DUB], arrival=[WRO], departureDateTime=[2017-07-02T07:00], arrivalDateTime=[2017-07-02T21:00]}
+          Headers = {}
+
+Handler:
+             Type = com.rcorona.controller.InterconnectionsController
+           Method = public java.util.List<com.rcorona.model.Flight> com.rcorona.controller.InterconnectionsController.interconnections(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = [{"stops":0,"legs":[{"departureAirport":"DUB","arrivalAirport":"WRO","departureDateTime":"2017-07-02T17:25","arrivalDateTime":"2017-07-02T21:00"}]},{"stops":1,"legs":[{"departureAirport":"DUB","arrivalAirport":"NCL","departureDateTime":"2017-07-02T07:35","arrivalDateTime":"2017-07-02T08:45"},{"departureAirport":"NCL","arrivalAirport":"WRO","departureDateTime":"2017-07-02T12:30","arrivalDateTime":"2017-07-02T15:45"}]}]
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
